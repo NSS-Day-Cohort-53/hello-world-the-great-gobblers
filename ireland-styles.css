@@ -1,0 +1,54 @@
+body {    
+    font-family: 'Merriweather', serif;
+    background-color: #42aa2b;
+    opacity: 1;
+    background-image: linear-gradient(to right, #08a71e, #08a71e 4px, #42aa2b 4px, #42aa2b );
+    background-size: 8px 100%;
+}
+
+header {
+    margin: 20px;
+    text-align: center;
+    
+}
+
+nav {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 75%;
+}
+
+article {
+    padding: 20px;
+    flex-basis: 33%;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+}
+
+.ireland__pic {
+    border-radius: 20px;
+    width: 900px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.ireland__pic__section {
+    text-align: center;
+}
+
+.ireland__headline {
+    text-align: center;
+    color: orange;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+}
