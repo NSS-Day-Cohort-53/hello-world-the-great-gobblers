@@ -1,0 +1,57 @@
+.country-name {
+    
+}
+
+.news-headline {
+
+}
+
+.nav {
+    display: flex;
+    flex-wrap: flex;
+}
+
+.nav-button {
+    border: 1px solid black;
+    background-color: #ed2023
+    ;
+    color: white;
+    box-shadow: 2px 3px forestgreen;
+    margin-left: .5em;
+    margin-right: .5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 1em;
+}
+
+.lists-boxes{ 
+    flex-basis: 33%;
+    border-radius: 25px;
+    background: #136734;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+.lists-title {
+    border: 1px solid black;
+    background-color: #ed2023;
+    color: white;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-image {
+    margin-top: 2em;
+}
+
+footer {
+    background-color: rgba(230, 255, 252, 0.253);
+    padding: 1em;
+}
