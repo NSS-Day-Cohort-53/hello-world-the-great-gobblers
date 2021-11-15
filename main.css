@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: papayawhip;
+    font-family: 'Oldenburg', cursive;
+}
+
+img {
+    aspect-ratio: auto;
+    height: 300px;
+}
