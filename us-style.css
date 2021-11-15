@@ -1,0 +1,24 @@
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list {
+    flex-basis: 33%;
+    border-style: inset;
+    background-color:red
+    
+}
+
+
+    h3{
+        text-decoration: underline;
+    }
+
+    body {
+        background-image: url("https://www.publicdomainpictures.net/pictures/200000/velka/statue-of-liberty-1478886091fR3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    
+    }
