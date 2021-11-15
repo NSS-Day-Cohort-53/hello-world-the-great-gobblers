@@ -1,25 +1,58 @@
+
+body {
+    background-image: url('https://successtours.s3.amazonaws.com/web/locations/Portugal/Lisbon/_2000xAUTO_crop_center-center_90_none/Lisbon-Skyline-as-seen-from-Almada-Portugal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .country {
+      display: flex;
+     justify-content: center;
+      
+  }
+
 .country-name {
-    
+    text-align: center;
+    background: transparent;
+    aspect-ratio: auto;
+    align-self: center;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+
+.country-flag {
+   height: 500px;
+   aspect-ratio: auto;
+   flex-wrap: wrap;
 }
 
 .news-headline {
-
+    border-radius: 25px;
+    background-color: rgb(230, 255, 252);
+    width: auto;
+    height: auto;
+    padding: 2em;
+    box-shadow: 2px 3px #f3eb1a;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 .nav {
     display: flex;
     flex-wrap: flex;
+    justify-content: center;
 }
 
 .nav-button {
     border: 1px solid black;
-    background-color: #ed2023
-    ;
+    background-color: #ed2023;
     color: white;
     box-shadow: 2px 3px forestgreen;
     margin-left: .5em;
     margin-right: .5em;
     font-family: 'Raleway', sans-serif;
+    padding: 10px;
 }
 
 .lists {
@@ -35,6 +68,7 @@
     width: auto;
     height: auto;
     color: white;
+    border: 1px solid black;
 }
 
 .lists-title {
@@ -49,6 +83,9 @@
 
 .main-image {
     margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
